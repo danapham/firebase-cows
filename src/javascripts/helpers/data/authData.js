@@ -10,7 +10,7 @@ const checkLoginStatus = () => {
       $('#pasture').removeClass('hide');
       $('#pasture').html(
         `<img src="${user.photoURL}" alt="${user.displayName}">`
-      )
+      );
       $('#navbar-logout-button').removeClass('hide');
     } else {
       $('#navbar-logout-button').addClass('hide');
